@@ -18,7 +18,7 @@ This repository currently contains the core interface files:
 - `Cpt_t.hpp`: Type definitions and aliases.
 - `LICENSE`: MIT License for open-source use.
 
-##📈 Roadmap & Issues
+## 📈 Roadmap & Issues
 -We are actively improving the interface. Check our Issues for current bugs or feature requests:
 
 -**Issue #1**: Working on resolving the div() naming conflict with the standard library.
