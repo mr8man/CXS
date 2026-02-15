@@ -109,12 +109,6 @@ namespace cp{
         }
     }
 
-    /*Cxs is a High level object oriented programing language
-    * made by Cups Studio
-    * The original creactor was ClippyCraft
-    * and the helper was gpt
-    */
-
 }
 
 
