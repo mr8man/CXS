@@ -5,7 +5,7 @@
 #include <string>
 using namespace std;
 
-using namespace short_types{
+namespace short_types{
   using nums = int;
   using str = std::string;
   using dob = double;
@@ -17,7 +17,7 @@ using namespace short_types{
   #define val const //from kotlin
 }
 
-using namespace let_types{
+namespace let_types{
   using let_nums = int;
   using let_str = std::string;
   using let_dob = double;
@@ -29,7 +29,8 @@ using namespace let_types{
   using let_vd = void;
   using let_nort = void;
 }
-using namespace CXS_types{
+
+namespace CXS_types{
   #define dyn auto // from CXS (CXS own syntax)
   #define immut const // from CXS (CXS own syntax)
   #define letc const // from CXS (CXS own syntax)
@@ -37,7 +38,7 @@ using namespace CXS_types{
   #define funk auto // from CXS (CXS own syntax)
 }
 
-using namespace functions{
+namespace functions{
   #define fn auto // from rust
   #define fun auto //from kotlin,go etc
   #define let auto //from js
