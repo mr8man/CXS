@@ -100,7 +100,7 @@ namespace cp{
     }
 
     template<typename T1, typename T2>
-    void div(T1 a, T2 b) {
+    void divs(T1 a, T2 b) {
         if (b == 0) {
             cout << "CXS-Error: Can't divide by zero" << endl;
         } else {
