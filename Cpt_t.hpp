@@ -3,9 +3,8 @@
 
 #include <iostream>
 #include <string>
-using namespace std;
 
-namespace short_types{
+namespace CXS_short_types{
   using nums = int;
   using str = std::string;
   using dob = double;
@@ -13,8 +12,7 @@ namespace short_types{
   using fl = float;
   using cr = char;
   using lg = long;
-  #define var auto //from kotlin,js
-  #define val const //from kotlin
+
 }
 
 namespace let_types{
@@ -31,19 +29,11 @@ namespace let_types{
 }
 
 namespace CXS_types{
-  #define dyn auto // from CXS (CXS own syntax)
-  #define immut const // from CXS (CXS own syntax)
-  #define letc const // from CXS (CXS own syntax)
-  #define letd auto // from CXS (CXS own syntax)
-  #define funk auto // from CXS (CXS own syntax)
+ 
 }
 
 namespace functions{
-  #define fn auto // from rust
-  #define fun auto //from kotlin,go etc
-  #define let auto //from js
-  #define func auto // from CXS (CXS own syntax)
-  #define function auto //from js
+ 
   using funv = void;
   using funnm = int;
   using funst = std::string;
@@ -53,6 +43,22 @@ namespace functions{
   using funcr = char;
   using funlg = long;
 }
+  //loan keywords
+  #define var auto //from kotlin,js
+  #define val const //from kotlin
 
+  //functions macros
+  #define fn auto // from rust
+  #define fun auto //from kotlin,go etc
+  #define let auto //from js
+  #define func auto // from CXS (CXS own syntax)
+  #define function auto //from js
+
+  //CXS own types macros
+  #define dyn auto // from CXS (CXS own syntax)
+  #define immut const // from CXS (CXS own syntax)
+  #define letc const // from CXS (CXS own syntax)
+  #define letd auto // from CXS (CXS own syntax)
+  #define funk auto // from CXS (CXS own syntax)
 
 #endif //CPT_T_HPP
