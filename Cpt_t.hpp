@@ -5,13 +5,16 @@
 #include <string>
 using namespace std;
 
-using nums = int;
-using str = std::string;
-using dob = double;
-using bl = bool;
-using fl = float;
-using cr = char;
-using lg = long;
+using namespace short_types{
+  using nums = int;
+  using str = std::string;
+  using dob = double;
+  using bl = bool;
+  using fl = float;
+  using cr = char;
+  using lg = long;
+}
+
 
 using let_nums = int;
 using let_str = std::string;
