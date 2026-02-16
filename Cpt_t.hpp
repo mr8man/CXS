@@ -28,10 +28,6 @@ namespace let_types{
   using let_nort = void;
 }
 
-namespace CXS_types{
- 
-}
-
 namespace functions{
  
   using funv = void;
