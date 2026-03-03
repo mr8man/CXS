@@ -5,7 +5,7 @@
 #include "Cpt_t.hpp"
 using namespace std;
 
-namespace cp{
+namespace stdio{
     template<typename T>
     void print(T value) {
         cout << value;
