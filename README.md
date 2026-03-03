@@ -36,7 +36,7 @@ fun main() -> funnm {
     
     // Use the math methods
     add(10, 5);
-    cp::div(10, 2); // Current stable call
+    divs(10, 2);
 
     rehave 0;
 }
