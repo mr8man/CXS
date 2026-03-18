@@ -10,7 +10,7 @@
 - **Simplified Syntax:** Use `fun`, `str`, and `nums` for cleaner code.
 - **Smart Math:** Includes a safe division method `div()` with zero-check protection.
 - **Easy I/O:** Simplified `print()` and `println()` functions.
-- **Namespaced:** All functions are safely tucked inside the `cp::` namespace.
+- **Namespaced:** All templates are safely tucked inside the `stdio::` namespace.
 
 ## 🛠️ Project Structure
 This repository currently contains the core interface files:
