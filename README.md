@@ -25,6 +25,9 @@ This repository currently contains the core interface files:
 ```cpp
 #include "CXS11.hpp"
 using namespace stdio;
+using namespace let_types;
+using namespace CXS_short_types;
+using namespace functions;
 
 fun main() -> funnm {
     println("Welcome to CXS!");
