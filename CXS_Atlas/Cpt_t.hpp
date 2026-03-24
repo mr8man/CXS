@@ -18,7 +18,7 @@ namespace types{
   //funcs
   using funv = void;
   using funnum = int;
-  using funst = std::string;
+  using funstr = std::string;
   using fundb = double;
   using funfl = float;
   using funbl = bool;
