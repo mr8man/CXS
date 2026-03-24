@@ -14,7 +14,7 @@
 
 ## 🛠️ Project Structure
 This repository currently contains the core interface files:
-- `CXS11.hpp`: The main interface logic and functions.
+- `CXSAtlas.hpp`: The main interface logic and functions.
 - `Cpt_t.hpp`: Type definitions and aliases.
 - `LICENSE`: MIT License for open-source use.
 
@@ -23,7 +23,7 @@ This repository currently contains the core interface files:
 
 ## 💻 Quick Example
 ```cpp
-#include "CXS_Atlas.hpp"
+#include "CXSAtlas.hpp"
 using namespace stdio;
 using namespace stdmath;
 using namespace types;
@@ -40,5 +40,5 @@ fun main() -> funnm {
     add(10, 5);
     divs(10, 2);
 
-    rehave 0;
+    return 0;
 }
