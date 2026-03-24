@@ -10,7 +10,7 @@
 - **Simplified Syntax:** Use `fun`, `str`, and `nums` for cleaner code.
 - **Smart Math:** Includes a safe division method `div()` with zero-check protection.
 - **Easy I/O:** Simplified `print()` and `println()` functions.
-- **Namespaced:** All templates are safely tucked inside the `stdio::` namespace.
+- **Namespaced:** All i/o templates are safely tucked inside the `stdio::` namespace.
 
 ## 🛠️ Project Structure
 This repository currently contains the core interface files:
@@ -23,11 +23,10 @@ This repository currently contains the core interface files:
 
 ## 💻 Quick Example
 ```cpp
-#include "CXS11.hpp"
+#include "CXS_Atlas.hpp"
 using namespace stdio;
-using namespace let_types;
-using namespace CXS_short_types;
-using namespace functions;
+using namespace stdmath;
+using namespace types;
 
 fun main() -> funnm {
     println("Welcome to CXS!");
