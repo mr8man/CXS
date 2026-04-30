@@ -16,6 +16,7 @@
 This repository currently contains the core interface files:
 - `CXSAtlas.hpp`: The main interface logic and functions.
 - `Cpt_t.hpp`: Type definitions and aliases.
+- `CPM1.hpp`: Math functions.
 - `LICENSE`: MIT License for open-source use.
 
 ## 📈 Roadmap & Issues
