@@ -33,7 +33,7 @@ using namespace stdio;
 using namespace stdmath;
 using namespace types;
 
-fun main() -> fununm {
+fun main() -> fununum {
     println("Welcome to CXS!");
 
     str name;
