@@ -22,6 +22,11 @@ namespace stdio{
     void flprintln(Args... args) {
         (std::cout << ... << args) << "\n" << std::flush;
     }
+
+    template<typename... Args>
+    void flprint(Args... args) {
+        (std::cout << ... << args) << std::flush;
+    }
     
     //input func
     template<typename... Args>
